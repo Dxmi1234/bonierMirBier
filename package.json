@@ -1,7 +1,6 @@
 {
   "name": "nuxt-app",
   "private": true,
-  "type": "module",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -22,6 +21,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
+    "@prisma/client": "^5.8.0",
     "abbrev": "^1.1.1",
     "acorn": "^8.11.2",
     "agent-base": "^6.0.2",
@@ -269,6 +269,7 @@
     "minizlib": "^2.1.2",
     "mkdirp": "^1.0.4",
     "mlly": "^1.4.2",
+    "mongodb": "^6.3.0",
     "mri": "^1.2.0",
     "mrmime": "^2.0.0",
     "ms": "^2.1.2",
