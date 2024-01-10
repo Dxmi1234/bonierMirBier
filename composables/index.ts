@@ -4,7 +4,7 @@ const prisma = new PrismaClient({datasources: { db: { url: "mongodb://127.0.0.1/
 
 prisma.$connect().then(() => {
   console.log('Connected to database')
-}).catch((err) => {
+}).catch((err : any) => {
   console.error(err)
 });
 
